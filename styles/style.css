@@ -77,7 +77,6 @@
   color:#2f80ed;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -88,13 +87,6 @@
   z-index: 0;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
 
 
 .description {
@@ -334,21 +326,11 @@
   height: 877px;
   background-repeat: no-repeat;
   right: -210px;
-  top: 0; 
+  top: 0;
   position: absolute;
   z-index: -1;
 }
 
-.footer {
-  background-color: #1f1f1f;
-  color: #f2f2f2;
-  padding: 0;
-  min-height: 350px;
-  margin: 0;
-  box-sizing: border-box;
-  padding-bottom: 40px;
-  
-}
 
 .columns {
   width: 90%;
@@ -356,7 +338,7 @@
   justify-content: space-between;
   flex-direction: row;
   box-sizing: border-box;
-  margin: 0 auto ;
+  margin: 0 auto;
 }
 .column__copyright {
   flex-basis: 711px;
@@ -385,11 +367,10 @@
 .footer__columns{
   width: 90%;
   display: flex;
-  margin: auto;
   justify-content: space-between;
   flex-direction: row;
   box-sizing: border-box;
-  margin: 0 auto;;
+  margin: 0 auto;
 }
 .footer__column_content_copyright{
   flex-basis: 711px;
@@ -398,10 +379,7 @@
   justify-content: space-between;
 }
 
-.logo__place_footer{
-  line-height: 35px;
-  width: 183px;
-}
+
 
 .footer__author{
   margin: 18px 0;
