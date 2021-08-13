@@ -1,0 +1,44 @@
+.techniques {
+  width: 80%;
+  padding-top: 100px;
+  margin: 0 auto;
+}
+.cards {
+  width: 920px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.cards__item {
+  width: 240px;
+}
+
+.cards__item:last-of-type {
+  width: 240px;
+  margin-right: 340px;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  margin: 60px 40px 43px;
+  border-radius: 160px; /* Радиус скругления */
+}
+
+.cards__title {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cards__description {
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
+
+

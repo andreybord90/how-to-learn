@@ -1,0 +1,21 @@
+.logo {
+  width: 183px;
+  height: 32px;
+}
+.logo_place_header {
+  width: 183px;
+  height: 32px;
+  background-image: url(/images/logo_place_header.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-self: center;
+  left: 64px;
+  top: 30px;
+  position: absolute;
+}
+
+.logo_place_footer {
+  line-height: 35px;
+  width: 183px;
+}

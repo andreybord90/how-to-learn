@@ -1,0 +1,29 @@
+
+
+  .table {
+    margin: auto;
+    display: flex;
+    width: 1100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .table__cell {
+    width: 250px;
+    align-self: stretch;
+  }
+  
+  .table__heading {
+    margin: 60px 0 0;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .table__text {
+    margin: 20px 0 0;
+    line-height: 1.2;
+    font-size: 18px;
+  }
+  
