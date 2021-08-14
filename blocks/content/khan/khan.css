@@ -61,8 +61,8 @@
   color: #2f80ed;
   margin-left: 48px;
   text-decoration: none;
-  transition-duration: 2s;
-  transition-timing-function: ease;
+  transition: opacity linear 0.6s;
+  align-self:flex-start;
 }
 .buy-link:hover {
   opacity: 0.3;
