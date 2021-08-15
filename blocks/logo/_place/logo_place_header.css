@@ -1,0 +1,16 @@
+.logo {
+  width: 183px;
+  height: 32px;
+}
+.logo_place_header {
+  width: 183px;
+  height: 32px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-self: center;
+  left: 64px;
+  top: 30px;
+  position: absolute;
+}
+

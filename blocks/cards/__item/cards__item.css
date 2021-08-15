@@ -1,0 +1,8 @@
+.cards__item {
+  width: 240px;
+}
+.cards__item:last-of-type {
+  width: 240px;
+  margin-right: 340px;
+}
+

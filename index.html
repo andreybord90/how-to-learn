@@ -4,13 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
     <title>Научиться учиться</title>
   </head>
   <body>
     <div class="page">
       <header class="header">
-        <div class="logo logo_place_header"></div>
+        <img
+          class="logo logo_place_header"
+          src="images/logo_place_header.svg"
+          alt="Яндекс Практикум"
+        />
 
         <h1 class="header__title">Научиться учиться</h1>
         <p class="header__subtitle">
@@ -238,7 +241,7 @@
                 alt="Изображение"
                 class="khan__book-pic"
               />
-              <a href="# " class="buy-link">Купить книгу &rarr;</a>
+              <a href="# " class="khan__buy-link">Купить книгу &rarr;</a>
             </div>
           </div>
         </section>
@@ -312,7 +315,11 @@
               </p>
             </div>
           </div>
-          <div class="kaufman__triangle rotation"></div>
+          <img
+            class="kaufman__triangle rotation"
+            src="images/kaufman-triangle.svg"
+            alt="Треугольник"
+          />
         </section>
 
         <section class="resources">
@@ -322,26 +329,19 @@
           </h3>
 
           <div class="resources__logo-zone">
-            <img
-              class="resources__logo"
-              src="./images/logo/resources-arzamas.svg"
-              alt="Арзамас"
-            />
-            <img
-              class="resources__logo"
-              src="./images/logo/resources-n1.svg"
-              alt="N+1"
-            />
-            <img
-              class="resources__logo"
-              src="./images/logo/resources-strelka.svg"
-              alt="Strelka"
-            />
-            <img
-              class="resources__logo"
-              src="./images/logo/resources-polka.svg"
-              alt="Polka"
-            />
+            <a class="resources__logo" href="">
+              <img src="/images/logo/resources-arzamas.svg" alt="Арзамас"
+            /></a>
+
+            <a class="resources__logo" href="">
+              <img src="./images/logo/resources-n1.svg" alt="Н+1"
+            /></a>
+            <a class="resources__logo" href="">
+              <img src="./images/logo/resources-strelka.svg" alt="Стрелка"
+            /></a>
+            <a class="resources__logo" href="">
+              <img src="./images/logo/resources-polka.svg" alt="Полка"
+            /></a>
           </div>
         </section>
       </main>
